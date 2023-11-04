@@ -10,3 +10,5 @@ sql-generations/*
 erros/*
 
 .env
+
+.DS_Store
