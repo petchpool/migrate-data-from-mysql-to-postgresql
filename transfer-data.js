@@ -61,7 +61,7 @@ async function getTableNames() {
       FROM 
           information_schema.tables
       WHERE 
-          table_schema = 'platform_prod'
+          table_schema = '${env.MYSQL_DATABASE}'
       ORDER BY 
           table_rows ASC;
     `);
